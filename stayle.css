@@ -1,0 +1,220 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #FFD700;
+    color: #333;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+}
+
+header .navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header .navbar a:hover {
+    background-color: #333;
+    color: #FFD700;
+    border-radius: 5px;
+}
+
+/* Estilos da primeira seção */
+.first-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.first-section h1 {
+    font-size: 36px;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.first-section .img-perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.first-section .functions p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos da seção de cardápio */
+.second-section {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.second-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #FFD700;
+}
+
+.second-section .img-portfolio {
+    margin: 10px;
+    display: inline-block;
+}
+
+.second-section .img-portfolio img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Estilos da seção sobre */
+.third-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.third-section h1 {
+    font-size: 32px;
+    color: #FFD700;
+    margin-bottom: 20px;
+}
+
+.third-section .one-text p,
+.third-section .two-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.third-section .one {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.third-section .one:hover {
+    background-color: #333;
+    color: #FFD700;
+}
+
+/* Estilos da seção de contato */
+.fourth-section {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+}
+
+.fourth-section h1 {
+    font-size: 32px;
+    color: #FFD700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fourth-section .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.fourth-section .input-box,
+.fourth-section .input-group-2 {
+    flex: 1;
+    min-width: 280px;
+}
+
+.fourth-section input[type="text"],
+.fourth-section input[type="email"],
+.fourth-section input[type="phone"],
+.fourth-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.fourth-section .btn {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.fourth-section .btn:hover {
+    background-color: #333;
+    color: #FFD700;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer .rede-sociais a {
+    color: #FFD700;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer .rede-sociais a:hover {
+    color: #fff;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
